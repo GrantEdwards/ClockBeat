@@ -1,4 +1,4 @@
-# CockBeat
+# ClockBeat
 Python app to analyze audio recordings of clock beat
 
 ## Description
