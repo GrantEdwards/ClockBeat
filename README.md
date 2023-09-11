@@ -79,7 +79,7 @@ the lower subplot, but this plot isn't too bad.
 
 Zooming in shows the three waveforms more clearly:
 
-![Saturday_11:54pm.m4a-zoomed.png](imgs/Saturday_11:54pm.m4a-zoomed.svg?raw)
+![Saturday_11:54pm.m4a-zoomed.svg](imgs/Saturday_11:54pm.m4a-zoomed.svg?raw)
 
 ### Gain and Threshold
 
