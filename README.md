@@ -151,8 +151,7 @@ option, that value will be included in the plot title and a dotted
 line will be drawn on the lower subplot showing the correct beat
 interval for that BPH value:
 
-![Monday_9:33pm.m4a.svg](imgs/Monday_9:33pm.m4a.svg?raw)
-
+![t5000-b4050-Saturday_8:12pm.m4a.svg](imgs/t5000-b4050-Saturday_8:12pm.m4a.svg?raw)
 
 ### Stero Recordings
 
