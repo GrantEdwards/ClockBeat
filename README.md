@@ -115,7 +115,7 @@ Here's a recording where the default values don't work well:
 
 The gain is OK (you probably want peaks of at least a few thousand
 counts above the noise floor). But the default threshold of 8000 is
-too high and only one beat was detected (at the 3s point).  You want
+too high, and only one beat was detected (at the 3s point).  You want
 to pick a threshold that's a bit below the lowest orange peak
 value. We'll try 4000:
 
@@ -130,17 +130,18 @@ too short.
 
 Here's are recording where many beats are detected, but some aren't:
 
-Monday_9:33pm.m4a
+![Monday_9:33pm.m4a.svg](imgs/Monday_9:33pm.m4a.svg?raw)
  
 Again, the threshold needs to be lowered (or the gain increased). In
 this case, there's some garbage at the end of the recording, so we
 want to choose a threshold that will ignore that garbage. We'll try a
 threshold of 6000:
 
- -t6000 Monday_9:33pm.m4a
+![t6000-Monday_9:33pm.m4a.svg](imgs/t6000-Monday_9:33pm.m4a.svg?raw)
+
 
 Now beats are correctly detected, but this is that same clock that's
-noticably out of beat. When it's this bad, it's pretty easy to tell by
+noticeably out of beat. When it's this bad, it's pretty easy to tell by
 ear.
 
 ### Target BPH
