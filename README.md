@@ -72,7 +72,7 @@ time intervals betwen tick-tock and tock-tick in blue and orange.
 
 Here's a sample plot:
 
-![Saturday_11:54pm.m4a.png](imgs/Saturday_11:54pm.m4a.png?raw)
+![Saturday_11:54pm.m4a.png](imgs/Saturday_11:54pm.m4a.svg?raw)
 
 Ideally there would be no space between the orange and blue lines in
 the lower subplot, but this plot isn't too bad.
