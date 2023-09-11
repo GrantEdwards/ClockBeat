@@ -111,7 +111,7 @@ options:
 
 Here's a recording where the default values don't work well:
 
-Saturday_7:16pm.m4a
+![Saturday_7:16pm.m4a.svg](imgs/Saturday_7:16pm.m4a.svg?raw)
 
 The gain is OK (you probably want peaks of at least a few thousand
 counts above the noise floor). But the default threshold of 8000 is
@@ -119,7 +119,7 @@ too high and only one beat was detected (at the 3s point).  You want
 to pick a threshold that's a bit below the lowest orange peak
 value. We'll try 4000:
 
- -t4000 Saturday_7:16pm.m4a
+ ![t4000-Saturday_7:16pm.m4a.svg](imgs/t4000-Saturday_7:16pm.m4a.svg?raw)
 
 That produces good beat detection. The consistent seperation between
 the two lines in the lower subplot indicates that the clock is out of
@@ -130,7 +130,7 @@ too short.
 
 Here's are recording where many beats are detected, but some aren't:
 
- Monday_9:33pm.m4a
+Monday_9:33pm.m4a
  
 Again, the threshold needs to be lowered (or the gain increased). In
 this case, there's some garbage at the end of the recording, so we
