@@ -13,7 +13,7 @@ parser.add_argument('-g', '--gain', dest='gain', type=int, default=20, help='gai
 parser.add_argument('-t', '--threashold', dest='thresh', type=int, default=8000, help='tick detect threshold')
 parser.add_argument('-b', '--bph', dest='bph', type=float, default=None, help='target BPH')
 parser.add_argument('-c', '--channel', dest='chan', type=int, default=0, help='audio channel number from input stream')
-parser.add_argument('-s', '--save', metavar='file', dest='save', type=str, default=None, help='save plot in <filename>')
+parser.add_argument('-s', '--save', metavar='file', dest='save', type=str, default=None, help='save svg plot in <filename>')
 
 args = parser.parse_args()
 
