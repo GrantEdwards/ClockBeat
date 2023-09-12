@@ -58,11 +58,12 @@ like MP3 or AAC rather than WAV.
 
 ### Invocation
 
-After you've saved the audio file, invoke the application like this
-(examples are on Unix, and the '$' is the command prompt):
+After you've saved the audio file, invoke the application like this,
+passing the audio recording filename on the command line (examples are
+on Unix, and the '$' is the command prompt):
 
 ~~~
-$ ./beat.py <audio-file-name>
+$ ./beat.py Saturday_11:54pm.m4a
 ~~~
 
 After a few seconds, a plot window will show up. The upper subplot
