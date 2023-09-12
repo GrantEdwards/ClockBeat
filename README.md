@@ -108,7 +108,7 @@ options:
   -s file, --save FILE  save svg plot in <FILE> (default: None)
 ~~~
 
-Here's a recording where the default values don't work well:
+Here is a recording where the default values don't work well:
 
 ![Saturday_7:16pm.m4a.svg](imgs/Saturday_7:16pm.m4a.svg?raw)
 
@@ -127,7 +127,7 @@ design BPH was 4050, so it's also running quite fast. In this case the
 plumb bob was incorrectly attached resulting in a pendulum that was
 too short.
 
-Here's are recording where many beats are detected, but some aren't:
+Here is a recording where many beats are detected, but some aren't:
 
 ![Monday_9:33pm.m4a.svg](imgs/Monday_9:33pm.m4a.svg?raw)
  
