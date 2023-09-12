@@ -3,7 +3,7 @@ Python app to analyze audio recordings of clock beat
 
 ## Description
 
-This is a Python application intended to help you set a pendulum
+This is a Python application intended to help you adjustx a pendulum
 clock (e.g. a grandfather clock). It processes an audio recording of
 the clock's "tick-tock" sound to help you determine two things.
 
@@ -16,8 +16,8 @@ you probably want a recording that's at least a few minutes long (the
 longer the recording, the more accurate the BPH calculation).  Once
 you get it close, the audio recording method probably isn't accurate
 enough for fine-tuning, and you're better off just setting the clock
-from a reference and then chcking/adjusting it once a day until it's
-"just right".
+from a reference and then checking/adjusting it once a day until it's
+right.
 
 ### 2. In Beat vs. Out of Beat
 
@@ -31,8 +31,8 @@ being wasted. Clocks that are out of beat will often run for a while
 and then simply stop.
 
 Clocks can be out of beat because they are out of plumb or because the
-pendulum or crutch lever needs to be adjusted. [Or both.] On many
-clocks, "adjusting" simply means gently bending something.
+crutch lever needs to be adjusted. [Or both.] On many clocks, "adjusting"
+simply means gently bending something.
 
 ## Usage
 
