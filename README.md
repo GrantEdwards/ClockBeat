@@ -89,9 +89,8 @@ are changed using the -g/--gain and -t/--threshold command line
 arguments:
 
 ~~~
-$ ./beat.py --help
-
-usage: ./beat.py [-h] [-g GAIN] [-t THRESH] [-b BPH] [-c CHAN] filename
+$ ./beat.py -h
+usage: ./beat.py [-h] [-g GAIN] [-t THRESH] [-b BPH] [-c CHAN] [-s file] filename
 
 Show clock beats
 
@@ -106,7 +105,7 @@ options:
   -b BPH, --bph BPH     target BPH (default: None)
   -c CHAN, --channel CHAN
                         audio channel number from input stream (default: 0)
-
+  -s file, --save FILE  save svg plot in <filename> (default: None)
 ~~~
 
 Here's a recording where the default values don't work well:
