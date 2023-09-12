@@ -3,7 +3,7 @@ Python app to analyze audio recordings of clock beat
 
 ## Description
 
-This is a Python application intended to help you adjustx a pendulum
+This is a Python application intended to help you adjust a pendulum
 clock (e.g. a grandfather clock). It processes an audio recording of
 the clock's "tick-tock" sound to help you determine two things.
 
@@ -26,7 +26,7 @@ same as the time interval from tock to tick. If a clock is badly out
 of beat, then it will sound like "tick tock pause tick tock pause ..."
 or "tick pause tock tick pause tock tick...". If a clock is out of
 beat, the escapement's little pushes on the pendulum aren't happening
-at the optimal points in the pedumlum's trajectory, and energy is
+at the optimal points in the pendulum's trajectory, and energy is
 being wasted. Clocks that are out of beat will often run for a while
 and then simply stop.
 
@@ -56,7 +56,7 @@ sounds at the start or end, use an audio editing program
 preserve as much dynamic range as possible by saving it in a format
 like MP3 or AAC rather than WAV.
 
-### Invokation
+### Invocation
 
 After you've saved the audio file, invoke the application like this
 (examples are on Unix, and the '$' is the command prompt):
@@ -68,7 +68,7 @@ $ ./beat.py <audio-file-name>
 After a few seconds, a plot window will show up. The upper subplot
 shows the rectified audio data (blue), the envelope waveform
 (orange) and the detected beats (green).  The lower subplot shows the 
-time intervals betwen tick-tock and tock-tick in blue and orange.
+time intervals between tick-tock and tock-tick in blue and orange.
 
 Here's a sample plot:
 
@@ -121,7 +121,7 @@ value. We'll try 4000:
 
  ![t4000-Saturday_7:16pm.m4a.svg](imgs/t4000-Saturday_7:16pm.m4a.svg?raw)
 
-That produces good beat detection. The consistent seperation between
+That produces good beat detection. The consistent separation between
 the two lines in the lower subplot indicates that the clock is out of
 beat. In this case, the clock was slightly off plumb.  The movement's
 design BPH was 4050, so it's also running quite fast. In this case the
@@ -153,7 +153,7 @@ interval for that BPH value:
 
 ![t5000-b4050-Saturday_8:12pm.m4a.svg](imgs/t5000-b4050-Saturday_8:12pm.m4a.svg?raw)
 
-### Stero Recordings
+### Stereo Recordings
 
 By default, the program will use channel 0 of a multi-channel
 recording. If you want to use a different channel, you can use the
